@@ -7,6 +7,8 @@ I present, the full Project Zenith: <https://drive.google.com/file/d/1OICwIPUn3Q
 
 >The attack on the authors of these files was entirely uncalled for and it shows what kind of pussies work at BIS. Instead of going to bat in defense they surely handed these persons information over to another company who wants to put them in jail for a crime he simply DID NOT COMMIT.
 
+_THE WORST PART ABOUT THIS IS IT WAS A RIVAL MOD CREATOR WHO WAS JEALOUS WHOM HAD SET HIM UP_
+
 **SHAME ON YOU BIS.**
 
 "Go fuck yourselves. Wait, you already did. End of DayZ for you."
