@@ -6,7 +6,7 @@
 
 __ __
 
-## The Rules To Win Quick
+## The Rules To Have Quick Enjoyable Setup, Performance, and Gameplay
 
 -   1) First, do not use the regular steam client on the machine you wish to use as the server. This will make you unable to play on your account, because the server will be logged in as your user and you will get rejected.
 
@@ -15,7 +15,11 @@ __ __
 -   3) You will need a mouse, keyboard, monitor, internet connection, and access to the machine. This is in no way shape or form a headless install. You need to have physical access to that machine and the router of the network it is on!
 
 -   4) Take things slow when choosing mission files and mods, creating conflicts by installing everything at once, will result in a denial for help when something goes wrong. We cannot help you learn to use a computer, practice common sense.
+
+-   5) Client Optomizations; This is a tricky one, but thank fully 'kubas' on Steam made a guide, I am linking that for you here <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438> Mixed results reported but I personally tried it and noticed a signifigant gain in performance from the first second I was operating with his methods. THANK YOU GOOD SIR, SENDING TRAFFIC YOUR WAY.
+
 __ __
+
 
 ## Requirements
 
@@ -60,6 +64,8 @@ Simply put, you need to replace the .exe's for the server that Steam placed into
 The fast way, my GoogleDrive: <https://drive.google.com/drive/folders/1KOZXibMbXItpNbkgN2NSZHKaYxfFbwyn?usp=sharing>
 
 The lenghty way, Directly from the developer: <https://steamcommunity.com/app/107410/discussions/0/527274088392991283/>
+
+Clientside Instructions <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438>
 __ __
 ## Headless Client Setup
 This is where things get tricky, we need to make a parameter file for the Werthless Headless Module mod.
