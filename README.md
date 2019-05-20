@@ -56,7 +56,7 @@ The lenghty way, Directly from the developer: https://steamcommunity.com/app/107
 ## Headless Client Setup
 This is where things get tricky, we need to make a parameter file for the Werthless Headless Module mod.
 The best way for us to do this is for you to follow the original instructions from Werthless (SUCH A GOOD GUY) himself.
-
+<a href="docs/whm.md">Modding & Scripting Guide **Here**</a>
 *Werthles Headless Kit Guide*
 _By Wert_
 >Complete, concise, headless client kit to set up up any mission and server for use with headless clients. Build HC missions entirely from the >editor, once WHK script files are copied to your mission folder. HCs control AI units instead of the server.
@@ -64,206 +64,16 @@ _By Wert_
 
 <iframe width="638" height="390" src="https://www.youtube.com/embed/15VK_kNOu6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Indepth Scripting Explanation (IMPORTANT)
 
-1.  How to add scripts to your multiplayer mission
+## FINALIZE
+> Now that you have gone through the process in its entirety, launch the server by pressing the play button. When you do FASTv2 will copy the  launch string to your clip board (due to a bug and its a useful one). You can use the "-mod=" bit to fill the `My Headless Kit\Server\ArmA2OA.par` file's required line for mods. MAGIC. Rinse and Repeat when you change your mods or they will have a hard time with life, as will you.
+> Thats It!
 
-a)
-Create HC(s) in your mission.
--   Insert Unit->Game Logic->Virtual Entities->Headless Client
--   Give it a unique name
--   Set it as playable
+```
 
-b)
-Add "init.sqf" and "WerthlesHeadless.sqf" from:
-@Werthles Headless Kit\Mission Scripts
-to the mission folder, usually:
-Documents\Arma 3 - Other Profiles\<profile name here>\MPMissions\<mission name.map>
+**NOW** *Go kick some ass* and _PLEASE_ invite me to a game, or send me the video. If you have suggestions, feel free to contact me.
 
-The parameters in "init.sqf" configure:
--   Repeat on/off
--   Repeat delay
--   Debug on/off
--   Balancing mode
--   Start delay
--   Sync delay
-
-Use simple balancing with 1 HC or to ignore balancing.
-
-c)
-If WH may transfer AIs while they are waiting at trigger-synced waypoints, add a non-overlapping waypoint before it, and sync this to the same trigger. HC transfer causes a temporary desync.
-
-d)
-Re-save your mission as a multiplayer mission.
-2. How to use the test mission
-Move
-@Werthles Headless Kit\Addons\HeadlessTest.Altis.pbo
-into
-Arma 3( Server)\MPMissions
-or
-subscribe here.
-3. How to start a server and connect HCs
-
-Copy:
-Arma 3\@Werthles Headless Kit\My Headless Kit
-Arma 3\@Werthles Headless Kit\steam_appid
-and paste as:
-Arma 3( Server)\My Headless Kit
-Arma 3( Server)\steam_appid
-on the machines you will use as HCs or servers.
-
-Then choose your next step:
-a) Set up LAN game
-b) Set up dedicated server game
-
-Headless clients cannot connect to game clients hosting internet games.
-
-a) Set up LAN game
-
-i)
-Start Arma 3 and host a LAN multiplayer game, with the password:
-arma
-If you will run the HC on the same machine, go to iii), then enter:
-connect="-connect=localhost";
-
-ii)
-Open:
-Arma 3\@Werthles Headless Kit\Get LAN IP
-then note the machine's IPv4 address.
-
-iii)
-On your HC machine, open this with a text editor:
-Arma 3( server)\My Headless Kit\Headless Client\ArmA2OA.par
-
-iv)
-Put the IP from ii) after connect="-connect=
-E.g.
-connect="-connect=192.168.0.10";
-
-v)
-If you have Arma 3( Server) installed on C:\ in the default location, start the HC using the appropriate shortcut from:
-Arma 3( Server)\My Headless Kit\Example Shortcuts
-
-vi)
-If not, create a shortcut to:
-Arma 3( Server)\arma3server.exe
-
-vii)
-Right click it and select properties.
-
-viii)
-At the end of "Target", add a space, then paste:
-"-par=@My Headless Kit\Headless Client\ArmA2OA.par"
-
-ix)
-Double click on the shortcut to run the HC.
-
-x)
-You can start more than one HC per machine, or repeat this process on multiple machines Your HCs should join HC slots on your server.
-
-b) Set up dedicated server game
-
-You will need various internal and external IP addresses for this. To get them, open the folder:
-Arma 3( Server)\My Headless Kit\
-on the appropriate machine and run either
-Get My Internal IP
-(IPv4) or
-Get My External IP
-to get its IPs.
-
-i)
-On the server machine, in notepad, open:
-Arma 3( Server)\My Headless Kit\Server\WerthlesHeadless_config.cfg
-
-ii)
-Add the external IPs of all external HCs and the internal IPs for all internal HCs to the headlessClients line, e.g.:
-headlessClients[]={"81.46.54.91","192.168.0.55","56.45.87.19"...};
-
-iii)
-On the HC machine, in notepad, open:
-Arma 3( Server)\My Headless Kit\Headless Client\ArmA2OA.par
-
-iv)
-Put the server's IP in this file after connect="-connect=
-E.g. if connecting the HC to the server via LAN:
-connect="-connect=192.168.0.10";
-E.g. if connecting the HC to the server via the internet:
-connect="-connect=81.46.54.91";
-
-v)
-If you have Arma 3( Server) installed on C:\ in the default location, start the server/HC using the appropriate shortcut from:
-Arma 3( Server)\My Headless Kit\Example Shortcuts
-
-vi)
-If not, create shortcuts to:
-Arma 3( Server)\arma3server.exe
-for a HC and for the server.
-
-vii)
-Right click it and select properties.
-
-viii)
-At the end of "Target", add a space, then paste:
-"-par=@My Headless Kit\Headless Client\ArmA2OA.par"
-for the HC shortcut and:
-"-par=@My Headless Kit\Server\ArmA2OA.par"
-for the dedicated server shortcut.
-
-ix)
-Double click on the shortcuts to run the HCs and server.
-
-x)
-You can start more than one HC per machine, or repeat this process on multiple machines Your HCs should join HC slots on your server.
-
-Type this into Arma 3 chat to check this:
-#login three
-4. Other information
-
-a) Opening Ports
-To host an Arma 3 dedicated server, forwarded these ports to your computer (UDP):
-2302, 2303, 3478, 4379, 4380, 27000 - 27050
-
-Here is a good video of this.
-
-b) Mods and Customisation
-The files to alter are in:
-Arma 3( Server)\My Headless Kit\Server
-or
-Arma 3( Server)\My Headless Kit\Headless
-
-To launch your server/HC with mods, open the related:
-Arma2OA.par
-file and replace:
-@Example mod 1
-etc. with your mods' folder names, separating with a ;
-
-Full details of other parameters:
-<https://community.bistudio.com/wiki/Startup_Parameters_Config_File>
-<https://community.bistudio.com/wiki/Arma_3_Startup_Parameters>
-<https://community.bistudio.com/wiki/server.cfg>
-<https://community.bistudio.com/wiki/basic.cfg>
-
-c) Arma 3 Launcher
-You can start HCs and servers with Arma 3 Launcher, however Arma 3 Server currently doesn't have this, and for HCs connecting via the internet, you would still need to alter .cfg files (possibly for LAN HCs too).
-
-d) Compatibility
-i)
-Works alongside DAC, if set up as described by Monsoon.<www.armaholic.com>
-Set a long enough WH start delay so DAC set up finishes first.
-Enter DAC zone group numbers as:
-(max total groups)/(No. of HCs).
-DAC and WH scripts shouldn't affect each other. WH script will control editor/Zeus/other script created AIs, DAC will control DAC units only.
-ii)
-WH script changes AI unit locality. This could break some scripts where local commands are issued for units that are no longer local.
-iii)
-Compatible with UPSMON. Add a long enough start delay for UPSMON to set up first.
-
-
-
-
-
-
-
+```
 
 
 
@@ -277,19 +87,5 @@ The first rule is, don't. A mission made only with a Zeus operator will function
 *Do you want a free head tracking software that functions like TrackIR?*
 Contact me in private, I bought a software for this that is not being used. Lets make a deal without money. =)
 
-## Bonus Mod
-When I started doing Arma again last year, an awesome set of gear appeared, then vanished.
-I present, the full Project Zenith: <https://drive.google.com/file/d/1OICwIPUn3QawH8E2WvoYPzSszou89hxS/view?usp=sharing>
-*If you value your accounts, you will not post this to the Steam Workshop or any other sites. Share this privately as I just did not do with you ;)*
-_I mean it, they will ban you_, `but` _I NEVER WILL_. (_Retaliation for FallujahMedic's Actions, Eat Me @ BohemiaInteractiveSoftware_)
-....................../´¯/)
-....................,/¯../
-.................../..../
-............./´¯/'...'/´¯¯`·¸
-........../'/.../..../......./¨¯\
-........('(...´...´.... ¯~/'...')
-.........\.................'...../
-..........''...\.......... _.·´
-............\..............(
-..............\.............\...
-`#OPENSOURCEFTW`
+## Click For A Little Special Something
+<a href="scripts/sauce/the-secret.md">CLICK HERE</a>
