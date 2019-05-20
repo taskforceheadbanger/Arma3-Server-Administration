@@ -1,3 +1,4 @@
+<img src="images/arma.png"></img>
 # Arma3 Server Administration
 
 > This repository is to help those who wish to have a modded Arma3 server with their existing hardware, today, within the next 2.5 hours.
