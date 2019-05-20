@@ -84,7 +84,9 @@ The first rule is, don't. A mission made only with a Zeus operator will function
 > CODE TO USE
 > @DIVEYEZ
 
-
+## Are You A Pilot?
+*Do you want a free head tracking software that functions like TrackIR?*
+Contact me in private, I bought a software for this that is not being used. Lets make a deal without money. =)
 
 ## Bonus Mod
 When I started doing Arma again last year, an awesome set of gear appeared, then vanished. I present, the full Project Zenith: https://drive.google.com/file/d/1OICwIPUn3QawH8E2WvoYPzSszou89hxS/view?usp=sharing if you value your accounts, you will not post this to the Steam Workshop or any other sites. Share this privately as I just did not do with you ;)
