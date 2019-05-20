@@ -55,6 +55,7 @@ The lenghty way, Directly from the developer: https://steamcommunity.com/app/107
 
 ## Headless Client Setup
 This is where things get tricky, we need to make a parameter file for the Werthless Headless Module mod.
+The best way for us to do this is for you to follow the original instructions from Werthless (SUCH A GOOD GUY) himself.
 
 
 
