@@ -13,6 +13,12 @@
 
 4) Take things slow when choosing mission files and mods, creating conflicts by installing everything at once, will result in a denial for help when something goes wrong. We cannot help you learn to use a computer, practice common sense.
 
+## Requirements
+
+1) A unused x86 or x64 computer meeting the previously states specs. (i5+, 4096MB Ram+, 20Mbps+ (AT THE VERY LEAST) We recommend a 1TB drive or a 512GB SSD)
+2) A Valid Steam account with a purchased copy of Arma 3. (DLC NOT REQUIRED)
+
+
 ## Software You Need
 
 https://www.microsoft.com/en-us/software-download/windows10
@@ -27,6 +33,6 @@ This is to download the repositories of code, and tools being provided, slowly b
 https://notepad-plus-plus.org/download/v7.7.html
 This is for editing text files when configuring more complex setups. Not required but highly recommended.
 
-https://github.com/alec-hs/Flaxs-Arma-Server-Tool-2 information https://forums.bistudio.com/forums/topic/206609-flaxs-arma-server-tool-fast
+https://github.com/alec-hs/Flaxs-Arma-Server-Tool-2 information https://forums.bohemia.net/forums/topic/220433-fast2-arma-server-and-steam-workshop-tool/
 FASTv2 is the server manager software we will be using to make this setup as easy and effortless as possible.
 Unfortunately this is in a Closed Beta for now, you will need to join https://discord.gg/tkS4evC to get access.
