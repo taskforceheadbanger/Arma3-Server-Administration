@@ -8,8 +8,7 @@
 -   2) `Arsenal` - Place in objects init field in the editor.
 -   3) `Loading Screen Bug Fix` - Place in mission folder in file names init.sqf &/or initPlayerLocal.sqf (__It does not matter unless you are doing strange things__)
 -   4) `Orbat Building` - A setup which uses ALiVE and a Select Few Mods to make a Faction. (__Google: ALiVE Orbat Creator__) (*Just to get your started.*)
--   5) `Sauce` - Guess Who
--   6) `Third Party` - A collection of tools written by others which are free to distribute. Feel free to google them by their name before usage.
+-   5) `Third Party` - A collection of tools written by others which are free to distribute. Feel free to google them by their name before usage.
 
 
 
