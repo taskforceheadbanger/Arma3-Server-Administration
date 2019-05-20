@@ -90,7 +90,7 @@ The first thing you should learn how to do to make life as a server admin easier
 The second thing you should do as a server admin is make your server and its players into its own faction so you can use it as a part of the editor, and Zeus. This saves SO MUCH TIME. <a href="scripts/orbat-building">__ORBAT-Creator-Setup__</a>
 
 As of right now, my scripts are too massive for this setup. I have one suggestion and a bit of script with it.
-
+Learn to use the Wiki for writing your own code. Lots of mods are poorly written. But to get you started as a newfound admin of a brand new arma server... I left some things for you @ <a href="scripts/">Scripts</a>
 __ __
 
 > C0M1NG S00N:
