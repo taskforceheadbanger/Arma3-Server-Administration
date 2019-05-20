@@ -16,7 +16,7 @@ __ __
 
 -   4) Take things slow when choosing mission files and mods, creating conflicts by installing everything at once, will result in a denial for help when something goes wrong. We cannot help you learn to use a computer, practice common sense.
 
--   5) Client Optomizations; This is a tricky one, but thank fully 'kubas' on Steam made a guide, I am linking that for you here <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438> Mixed results reported but I personally tried it and noticed a signifigant gain in performance from the first second I was operating with his methods. THANK YOU GOOD SIR, SENDING TRAFFIC YOUR WAY.
+-   5) Client Optomizations; **AVOID #6 DO NOT DO THAT IF YOU HAVE A DUAL BAY OR DISCREET GRAPHICS CARD**. For this reason, this is a tricky one, but thank fully 'kubas' on Steam made a guide, I am linking that for you here <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438> Mixed results reported but I personally tried it and noticed a signifigant gain in performance from the first second I was operating with his methods. THANK YOU GOOD SIR, SENDING TRAFFIC YOUR WAY.
 
 __ __
 
