@@ -12,4 +12,13 @@
 6) Third Party - A collection of tools written by others which are free to distribute. Feel free to google them by their name before usage.
 
 
+
+## Are You A Pilot?
+
+*Do you want a free head tracking software that functions like TrackIR?*
+Contact me in private, I bought a software for this that is not being used. Lets make a deal without money. =)
+
+## Click For A Little Special Something
+<a href="/rsr/lol/the-secret.md">CLICK HERE</a>
+
 ## GO HAVE FUN
