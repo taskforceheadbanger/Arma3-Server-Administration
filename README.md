@@ -69,6 +69,8 @@ You can share that file, with your players, to get them setup in just a few minu
 
 __Both the top "more" and the bottom on the right have an import feature now__
 ![images](/images/import-top-bottom.png)
+
+*A more detailed guide from a steam user:*
 <https://steamcommunity.com/sharedfiles/filedetails/?id=1207219385>
 
 __ __
