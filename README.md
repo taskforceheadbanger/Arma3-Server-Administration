@@ -65,7 +65,8 @@ The fast way, my GoogleDrive: <https://drive.google.com/drive/folders/1KOZXibMbX
 
 The lenghty way, Directly from the developer: <https://steamcommunity.com/app/107410/discussions/0/527274088392991283/>
 
-Clientside Instructions <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438>
+Share with your group....
+!! Clientside Instructions <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438> !!
 __ __
 ## Headless Client Setup
 This is where things get tricky, we need to make a parameter file for the Werthless Headless Module mod.
