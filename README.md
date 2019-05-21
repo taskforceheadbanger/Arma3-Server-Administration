@@ -80,7 +80,7 @@ __By Wert__
 
 <a href="docs/whm.md">Modding & Scripting Guide __Here__</a>
 
-<iframe width="638" height="390" src="https://www.youtube.com/embed/15VK_kNOu6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<https://www.youtube.com/embed/15VK_kNOu6o>
 
 ## PORT FORWARDING
 <https://community.bistudio.com/wiki/Arma_3_Dedicated_Server#Port_Forwarding>
