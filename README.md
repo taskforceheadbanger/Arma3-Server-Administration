@@ -81,6 +81,9 @@ __By Wert__
 
 <iframe width="638" height="390" src="https://www.youtube.com/embed/15VK_kNOu6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## PORT FORWARDING
+<https://community.bistudio.com/wiki/Arma_3_Dedicated_Server#Port_Forwarding>
+Forward the range, not the individual ports.
 
 ## FINALIZE
 > Now that you have gone through the process in its entirety, launch the server by pressing the play button. When you do FASTv2 will copy the  launch string to your clip board (due to a bug and its a useful one). You can use the "-mod=" bit to fill the `My Headless Kit\Server\ArmA2OA.par` file's required line for mods. MAGIC. Rinse and Repeat when you change your mods or they will have a hard time with life, as will you.
