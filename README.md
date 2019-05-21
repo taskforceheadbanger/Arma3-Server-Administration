@@ -62,10 +62,11 @@ __ __
 ## Mod Preset Export/Import
 You can see it clearly on the Mod tab in the arma 3 launcher, there is import functions and a round "share" button which exports the .html file.
 You can share that file, with your players, to get them setup in just a few minutes.
-** EXPORTING MOD PRESET **
+
+**EXPORTING MOD PRESET**
 ![images](/images/export-preset.png)
 
-** IMPORTING MOD PRESET **
+**IMPORTING MOD PRESET**
 
 __Both the top "more" and the bottom on the right have an import feature now__
 ![images](/images/import-top-bottom.png)
