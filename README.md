@@ -58,6 +58,21 @@ __ __
 
 After you have installed all of this software, you are now ready to start up FASTv2 and follow the instructions to begin installing SteamCMD, Arma3Server.exe(and x64) as well as install mods directly within FASTv2 from the Workshop and setup the first Headless Clients. Follow the instructions on this page but *DO NOT LAUNCH THE SERVER WHEN FINISHED*. We will be making some modifications to improve the speed at which the Arma3Server can operate by using custom binaries, as well as other optimizations. <https://github.com/alec-hs/Flaxs-Arma-Server-Tool-2/wiki/Setup-&-Installation>
 __ __
+
+## Mod Preset Export/Import
+You can see it clearly on the Mod tab in the arma 3 launcher, there is import functions and a round "share" button which exports the .html file.
+You can share that file, with your players, to get them setup in just a few minutes.
+** EXPORTING MOD PRESET **
+![images](/images/export-preset.png)
+
+** IMPORTING MOD PRESET **
+
+__Both the top "more" and the bottom on the right have an import feature now__
+![images](/images/import-top-bottom.png)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1207219385>
+
+__ __
+
 ## Performance Enhancements
 Now that you have finished that, lets remove the "frameratelimit" BIS placed on the server so you can maximize performance.
 Simply put, you need to replace the .exe's for the server that Steam placed into the Server folder. I believe you configured that and know this if you followed Flax's instructions properly.
