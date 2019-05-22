@@ -86,7 +86,9 @@ The lenghty way, Directly from the developer: <https://steamcommunity.com/app/10
 Share with your group....
 !! Clientside Instructions <https://steamcommunity.com/sharedfiles/filedetails/?id=1731305438> !!
 __ __
-## Headless Client Setup
+##  Secondary Headless Client Setup
+FAST sets up the ones on the server machine for you, however if you require more than one AI computation HC follow this guide. If not, skip this step.
+
 This is where things get tricky, we need to make a parameter file for the Werthless Headless Module mod.
 The best way for us to do this is for you to follow the original instructions from Werthless (SUCH A GOOD GUY) himself.
 
