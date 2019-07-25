@@ -125,7 +125,7 @@ __ __
 ## Scripting Mission Files For Peformance And Functionality
 The first rule is, don't. A mission made only with a Zeus operator will function so much better and smoother than a heavily scripted mission. However, I have a trick up my sleeve to share.
 
-The first thing you should learn how to do to make life as a server admin easier is develop the knowledge on how to use Mission File Layers in the Editor and Compositions. You will not need to repeat things over and over when making missions if you can do this. To get you started, you may take some of mine which are precious. <https://github.com/devgru-club/DEVGRU/tree/master/stuff/DEVGRU_Compositions>
+The first thing you should learn how to do to make life as a server admin easier is develop the knowledge on how to use Mission File Layers in the Editor and Compositions. You will not need to repeat things over and over when making missions if you can do this. 
 
 The second thing you should do as a server admin is make your server and its players into its own faction so you can use it as a part of the editor, and Zeus. This saves SO MUCH TIME. <a href="scripts/orbat-building/README.md">__ORBAT-Creator-Setup__</a>
 
